@@ -1,0 +1,41 @@
+/* Page background consistency */
+body {
+  background: #0f0f14;
+  color: #fff;
+}
+
+/* Section spacing consistency */
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Card hover effect */
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #c7a4ff;
+}
+
+/* Media grid */
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.media-grid img {
+  width: 100%;
+  border-radius: 10px;
+}/* Drake Hero Upgrade */
+.drake-hero {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7), #0f0f14),
+              url('https://images.unsplash.com/photo-1516280440614-37939bbacd81');
+  background-size: cover;
+  background-position: center;
+}
